@@ -1,8 +1,8 @@
 ﻿namespace TwoNum
 {
-    internal class Program
+    public class TwoNumberSum
     {
-        public static int[] TwoNumberSum(int[] nums, int target)
+        public static int[] TwoSum(int[] nums, int target)
         {
             for (int i = 0; i < nums.Length - 1; i++)
             {
@@ -27,7 +27,7 @@
             Console.WriteLine("Enter target:");
             int target = Convert.ToInt32(Console.ReadLine());
 
-            var result = TwoNumberSum(nums, target);
+            var result = TwoSum(nums, target);
 
             foreach (var r in result)
             {

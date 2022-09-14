@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{205FA31D-2A33-4C50-9EC5-A10DAAA0BE10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSumTests", "TwoSumTests\TwoSumTests.csproj", "{2EF24C56-3707-44A7-BDFB-7CEC2E7176B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TwoNumberSum", "TwoNumberSum", "{C79D9767-2BAE-40E1-A524-F429DB8AABDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,17 @@ Global
 		{205FA31D-2A33-4C50-9EC5-A10DAAA0BE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{205FA31D-2A33-4C50-9EC5-A10DAAA0BE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{205FA31D-2A33-4C50-9EC5-A10DAAA0BE10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF24C56-3707-44A7-BDFB-7CEC2E7176B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF24C56-3707-44A7-BDFB-7CEC2E7176B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF24C56-3707-44A7-BDFB-7CEC2E7176B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF24C56-3707-44A7-BDFB-7CEC2E7176B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{205FA31D-2A33-4C50-9EC5-A10DAAA0BE10} = {C79D9767-2BAE-40E1-A524-F429DB8AABDF}
+		{2EF24C56-3707-44A7-BDFB-7CEC2E7176B0} = {C79D9767-2BAE-40E1-A524-F429DB8AABDF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D2946C4-066E-4EEE-BE13-7C3E64088E0A}
