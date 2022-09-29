@@ -2,7 +2,7 @@ using TwoNum;
 
 namespace TwoSumTests
 {
-    public class Tests
+    public class TwoSumTests
     {
         [Test]
         [TestCase(new int[] { 2, 3, 4 }, 5, new int[] { 0, 1 })]

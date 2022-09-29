@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{205FA31D-2A33-4C50-9EC5-A10DAAA0BE10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "TwoSum\TwoSum.csproj", "{205FA31D-2A33-4C50-9EC5-A10DAAA0BE10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSumTests", "TwoSumTests\TwoSumTests.csproj", "{2EF24C56-3707-44A7-BDFB-7CEC2E7176B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSumTests", "TwoSumTests\TwoSumTests.csproj", "{2EF24C56-3707-44A7-BDFB-7CEC2E7176B0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TwoNumberSum", "TwoNumberSum", "{C79D9767-2BAE-40E1-A524-F429DB8AABDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MedianofTwoSortedArrays", "MedianofTwoSortedArrays", "{15A8106B-8DD8-4D49-AA95-FD28CA5DD1D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianofTwoSortedArrays", "MedianofTwoSortedArrays\MedianofTwoSortedArrays.csproj", "{B0CD65CC-4C93-4AF8-991B-17FEBB1966D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianofTwoSortedArraysTests", "MedianofTwoSortedArraysTests\MedianofTwoSortedArraysTests.csproj", "{6C87638D-749F-41FE-8DD7-C13486E321C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,14 @@ Global
 		{2EF24C56-3707-44A7-BDFB-7CEC2E7176B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EF24C56-3707-44A7-BDFB-7CEC2E7176B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EF24C56-3707-44A7-BDFB-7CEC2E7176B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CD65CC-4C93-4AF8-991B-17FEBB1966D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CD65CC-4C93-4AF8-991B-17FEBB1966D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CD65CC-4C93-4AF8-991B-17FEBB1966D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CD65CC-4C93-4AF8-991B-17FEBB1966D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C87638D-749F-41FE-8DD7-C13486E321C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C87638D-749F-41FE-8DD7-C13486E321C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C87638D-749F-41FE-8DD7-C13486E321C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C87638D-749F-41FE-8DD7-C13486E321C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{205FA31D-2A33-4C50-9EC5-A10DAAA0BE10} = {C79D9767-2BAE-40E1-A524-F429DB8AABDF}
 		{2EF24C56-3707-44A7-BDFB-7CEC2E7176B0} = {C79D9767-2BAE-40E1-A524-F429DB8AABDF}
+		{B0CD65CC-4C93-4AF8-991B-17FEBB1966D5} = {15A8106B-8DD8-4D49-AA95-FD28CA5DD1D8}
+		{6C87638D-749F-41FE-8DD7-C13486E321C5} = {15A8106B-8DD8-4D49-AA95-FD28CA5DD1D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D2946C4-066E-4EEE-BE13-7C3E64088E0A}
