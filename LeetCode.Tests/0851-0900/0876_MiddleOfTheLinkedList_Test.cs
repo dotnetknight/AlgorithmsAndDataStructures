@@ -7,7 +7,7 @@ namespace LeetCode.Tests._0851_0900
         [Test]
         [TestCase(new int[] { 1, 2, 3, 4, 5 }, new int[] { 3, 4, 5 })]
         [TestCase(new int[] { 1, 2, 3, 4, 5, 6 }, new int[] { 4, 5, 6 })]
-        public void MedianofTwoSortedArraysTest(int[] numbers, int[] expected)
+        public void MiddleOfTheLinkedList(int[] numbers, int[] expected)
         {
             var head = TestHelper.GenerateList(numbers);
 

@@ -9,7 +9,7 @@ namespace LeetCode.Tests._1251_1300
         [TestCase(new int[] { 0 }, 0)]
         [TestCase(new int[] { 1 }, 1)]
         [TestCase(new int[] { 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0 }, 18880)]
-        public void MedianofTwoSortedArraysTest(int[] numbers, int expected)
+        public void ConvertBinaryNumberInALinkedListToInteger(int[] numbers, int expected)
         {
             var solution = new _1290_ConvertBinaryNumberInALinkedListToInteger();
             var convertedToListNode = TestHelper.GenerateList(numbers);
