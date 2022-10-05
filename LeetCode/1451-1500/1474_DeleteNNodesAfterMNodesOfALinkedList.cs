@@ -14,9 +14,13 @@ namespace LeetCode
             {
                 int keep = m, remove = n;
                 while (keep-- > 0 && curr != null)
+                {
                     curr = curr.next;
+                }
                 while (remove-- > 0 && curr != null && curr.next != null)
+                {
                     curr.next = curr.next.next;
+                }
             }
 
             return dummy.next;
