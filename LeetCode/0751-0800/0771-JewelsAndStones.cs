@@ -19,6 +19,7 @@
                     stonesThatAreAlsoJewels++;
                 }
             }
+
             return stonesThatAreAlsoJewels;
         }
     }
