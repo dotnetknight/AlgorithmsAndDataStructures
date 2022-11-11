@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{40E02CFD-AA85-49BF-A52C-C128924036FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCode.csproj", "{40E02CFD-AA85-49BF-A52C-C128924036FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Tests", "LeetCode.Tests\LeetCode.Tests.csproj", "{0F284EBF-7551-40CE-B50E-CE7D8D2B7019}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.Tests", "LeetCode.Tests\LeetCode.Tests.csproj", "{0F284EBF-7551-40CE-B50E-CE7D8D2B7019}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linked List Construction", "Linked List Construction\Linked List Construction.csproj", "{D5C853E6-E9CA-4414-A99F-A81DE271E94D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{0FDB6A95-68C1-49CD-86C5-1BBF0B186E5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListExercise", "LinkedListExercise\LinkedListExercise.csproj", "{971AA430-F1B4-4F10-9920-981A19155630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListExercise.Tests", "LinkedListExercise.Tests\LinkedListExercise.Tests.csproj", "{638D01DA-3F16-43D0-A912-F1E09DF3856E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,13 +27,21 @@ Global
 		{0F284EBF-7551-40CE-B50E-CE7D8D2B7019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F284EBF-7551-40CE-B50E-CE7D8D2B7019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F284EBF-7551-40CE-B50E-CE7D8D2B7019}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5C853E6-E9CA-4414-A99F-A81DE271E94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5C853E6-E9CA-4414-A99F-A81DE271E94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5C853E6-E9CA-4414-A99F-A81DE271E94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5C853E6-E9CA-4414-A99F-A81DE271E94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971AA430-F1B4-4F10-9920-981A19155630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971AA430-F1B4-4F10-9920-981A19155630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971AA430-F1B4-4F10-9920-981A19155630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971AA430-F1B4-4F10-9920-981A19155630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638D01DA-3F16-43D0-A912-F1E09DF3856E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638D01DA-3F16-43D0-A912-F1E09DF3856E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638D01DA-3F16-43D0-A912-F1E09DF3856E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638D01DA-3F16-43D0-A912-F1E09DF3856E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{971AA430-F1B4-4F10-9920-981A19155630} = {0FDB6A95-68C1-49CD-86C5-1BBF0B186E5F}
+		{638D01DA-3F16-43D0-A912-F1E09DF3856E} = {0FDB6A95-68C1-49CD-86C5-1BBF0B186E5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D2946C4-066E-4EEE-BE13-7C3E64088E0A}
