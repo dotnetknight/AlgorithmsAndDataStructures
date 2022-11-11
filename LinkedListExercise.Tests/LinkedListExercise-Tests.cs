@@ -139,5 +139,25 @@ namespace LinkedListExercise.Tests
             var array = solution.ToArray();
             CollectionAssert.IsNotEmpty(array);
         }
+
+        static readonly object[] ReverseLinkedListTestData =
+        {
+            new object[] { 1, 2, 3, new int[] { 3,2,1 } },
+            new object[] { 4, 5, 6, new int[] { 6, 5, 4 } }
+        };
+
+        [Test]
+        [TestCaseSource(nameof(ReverseLinkedListTestData))]
+        public void ReverseLinkedList_ReverseLinkedList_LinkedListIsReversed(int value, int value1, int value2, int[] expectedArray)
+        {
+            var solution = new LinkedList();
+            solution.AddLast(value);
+            solution.AddLast(value1);
+            solution.AddLast(value2);
+
+            solution.ReverseLinkedList();
+            var array = solution.ToArray();
+            CollectionAssert.AreEquivalent(array, expectedArray);
+        }
     }
 }

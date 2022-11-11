@@ -1,4 +1,6 @@
-﻿namespace LinkedListExercise
+﻿using System.Collections.Generic;
+
+namespace LinkedListExercise
 {
     public class LinkedList
     {
@@ -142,6 +144,29 @@
             }
 
             return array;
+        }
+
+        // O(n) 
+        public void ReverseLinkedList()
+        {
+            if (IsEmpty(Head))
+            {
+                return;
+            }
+
+            var previous = Head;
+            var current = Head.Next;
+            while (current != null)
+            {
+                var next = current.Next;
+                current.Next = previous;
+                previous = current;
+                current = next;
+            }
+
+            Tail = Head;
+            Tail.Next = null;
+            Head = previous;
         }
 
         //O(1)
