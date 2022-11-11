@@ -73,6 +73,7 @@
             return -1;
         }
 
+        //O(1)
         public void RemoveFirst()
         {
             if (IsEmpty(Head))
@@ -93,6 +94,7 @@
             Size--;
         }
 
+        //O(n)
         public void RemoveLast()
         {
             if (IsEmpty(Head))
@@ -126,6 +128,7 @@
             return Size;
         }
 
+        //O(n)
         public int[] ToArray()
         {
             int[] array = new int[Size];
@@ -141,21 +144,25 @@
             return array;
         }
 
+        //O(1)
         public Node GetHead()
         {
             return Head;
         }
 
+        //O(1)
         public Node GetTail()
         {
             return Tail;
         }
 
+        //O(1)
         private bool IsEmpty(Node node)
         {
             return node == null;
         }
 
+        //O(n)
         private Node GetPrevious(Node node)
         {
             var current = Head;

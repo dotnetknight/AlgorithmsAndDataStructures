@@ -125,5 +125,19 @@ namespace LinkedListExercise.Tests
             var size = solution.GetSize();
             Assert.That(size, Is.EqualTo(expectedSize));
         }
+
+        [Test]
+        [TestCase(1, 2, 3)]
+        [TestCase(4, 5, 6)]
+        public void ToArray_ConvertLinkedListToArray_ArrayOfIntegers(int value, int value1, int value2)
+        {
+            var solution = new LinkedList();
+            solution.AddLast(value);
+            solution.AddLast(value1);
+            solution.AddLast(value2);
+
+            var array = solution.ToArray();
+            CollectionAssert.IsNotEmpty(array);
+        }
     }
 }
