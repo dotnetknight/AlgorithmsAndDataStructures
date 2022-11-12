@@ -9,9 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.Tests", "LeetCode.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{0FDB6A95-68C1-49CD-86C5-1BBF0B186E5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListExercise", "LinkedListExercise\LinkedListExercise.csproj", "{971AA430-F1B4-4F10-9920-981A19155630}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListExercise", "LinkedListExercise\LinkedListExercise.csproj", "{971AA430-F1B4-4F10-9920-981A19155630}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListExercise.Tests", "LinkedListExercise.Tests\LinkedListExercise.Tests.csproj", "{638D01DA-3F16-43D0-A912-F1E09DF3856E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListExercise.Tests", "LinkedListExercise.Tests\LinkedListExercise.Tests.csproj", "{638D01DA-3F16-43D0-A912-F1E09DF3856E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{B1CF32DB-8D17-4FFD-BC8F-C3A17DE22BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackExercise", "StackExercise\StackExercise.csproj", "{06CBDBB1-E510-4D70-9353-1B7A7CD00BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackExercise.Tests", "StackExercise.Tests\StackExercise.Tests.csproj", "{00B426AC-0633-458A-B314-88C5BBA59A0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +41,14 @@ Global
 		{638D01DA-3F16-43D0-A912-F1E09DF3856E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{638D01DA-3F16-43D0-A912-F1E09DF3856E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{638D01DA-3F16-43D0-A912-F1E09DF3856E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CBDBB1-E510-4D70-9353-1B7A7CD00BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CBDBB1-E510-4D70-9353-1B7A7CD00BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CBDBB1-E510-4D70-9353-1B7A7CD00BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CBDBB1-E510-4D70-9353-1B7A7CD00BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B426AC-0633-458A-B314-88C5BBA59A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B426AC-0633-458A-B314-88C5BBA59A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B426AC-0633-458A-B314-88C5BBA59A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B426AC-0633-458A-B314-88C5BBA59A0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +56,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{971AA430-F1B4-4F10-9920-981A19155630} = {0FDB6A95-68C1-49CD-86C5-1BBF0B186E5F}
 		{638D01DA-3F16-43D0-A912-F1E09DF3856E} = {0FDB6A95-68C1-49CD-86C5-1BBF0B186E5F}
+		{06CBDBB1-E510-4D70-9353-1B7A7CD00BBF} = {B1CF32DB-8D17-4FFD-BC8F-C3A17DE22BEF}
+		{00B426AC-0633-458A-B314-88C5BBA59A0C} = {B1CF32DB-8D17-4FFD-BC8F-C3A17DE22BEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D2946C4-066E-4EEE-BE13-7C3E64088E0A}
