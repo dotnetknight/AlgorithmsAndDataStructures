@@ -1,4 +1,6 @@
-﻿namespace LinkedListExercise
+﻿using System.Collections.Generic;
+
+namespace LinkedListExercise
 {
     public class LinkedList
     {
@@ -166,6 +168,43 @@
             Tail.Next = null;
             Head = previous;
         }
+
+        // O(n)
+        public void RemoveKthNodeFromEnd(int k)
+        {
+            if (IsEmpty(Head) || k <= 0)
+            {
+                throw new ArgumentNullException(nameof(k));
+            }
+
+            int counter = 1;
+            var first = Head;
+            var second = Head;
+
+            while (counter <= k)
+            {
+                second = second.Next;
+                counter++;
+            }
+            if (second == null)
+            {
+                Head.Value = Head.Next.Value;
+                Head.Next = Head.Next.Next;
+                Size--;
+
+                return;
+            }
+
+            while (second.Next != null)
+            {
+                second = second.Next;
+                first = first.Next;
+            }
+
+            Size--;
+            first.Next = first.Next.Next;
+        }
+
 
         //O(1)
         public Node GetHead()

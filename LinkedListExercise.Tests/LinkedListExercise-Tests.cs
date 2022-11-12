@@ -1,8 +1,13 @@
-
 namespace LinkedListExercise.Tests
 {
     public class Tests
     {
+        static readonly object[] RemoveKthNodeFromEndTestData =
+        {
+            new object[] { 1, 2, 3, 2, new int[] { 1, 3 } },
+            new object[] { 4, 5, 6, 1, new int[] { 4, 5 } }
+        };
+
         [Test]
         [TestCase(1, 1)]
         [TestCase(2, 2)]
@@ -158,6 +163,27 @@ namespace LinkedListExercise.Tests
             solution.ReverseLinkedList();
             var array = solution.ToArray();
             CollectionAssert.AreEquivalent(array, expectedArray);
+        }
+
+        [Test]
+        [TestCaseSource(nameof(RemoveKthNodeFromEndTestData))]
+        public void RemoveKthNodeFromEnd_RemoveKthElementFromEnd_RemovesKthElement(int value, int value1, int value2, int k, int[] expectedArray)
+        {
+            var solution = new LinkedList();
+            solution.AddLast(value);
+            solution.AddLast(value1);
+            solution.AddLast(value2);
+
+            solution.RemoveKthNodeFromEnd(k);
+            var array = solution.ToArray();
+            CollectionAssert.AreEquivalent(array, expectedArray);
+        }
+
+        [Test]
+        public void RemoveKthNodeFromEnd_KIsNegativeNumber_ThrowsArgumentNullException()
+        {
+            var solution = new LinkedList();
+            Assert.Throws<ArgumentNullException>(() => solution.RemoveKthNodeFromEnd(-1));
         }
     }
 }
