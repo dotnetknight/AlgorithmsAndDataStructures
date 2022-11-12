@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace StackExercise
+﻿namespace StackExercise
 {
     public class StackExercise
     {
