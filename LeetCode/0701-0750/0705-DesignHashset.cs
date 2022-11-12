@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCode._0701_0750
+﻿namespace LeetCode._0701_0750
 {
     public class _0705_DesignHashset
     {

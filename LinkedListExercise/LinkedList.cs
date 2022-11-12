@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace LinkedListExercise
+﻿namespace LinkedListExercise
 {
     public class LinkedList
     {
