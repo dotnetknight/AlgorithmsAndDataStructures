@@ -1,4 +1,4 @@
-﻿namespace LinkedListExercise
+﻿namespace DataStructures
 {
     public class LinkedList
     {

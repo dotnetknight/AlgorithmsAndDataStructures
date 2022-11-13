@@ -16,7 +16,7 @@
             while (startIdx < array.Length - 1)
             {
                 int smallestIdx = startIdx;
-                
+
                 for (int i = startIdx + 1; i < array.Length; i++)
                 {
                     if (array[smallestIdx] > array[i])
@@ -32,7 +32,7 @@
             return array;
         }
 
-        public void Swap(int i, int j, int[] array)
+        public static void Swap(int i, int j, int[] array)
         {
             (array[i], array[j]) = (array[j], array[i]);
         }
