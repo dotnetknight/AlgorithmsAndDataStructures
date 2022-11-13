@@ -34,9 +34,7 @@
 
         public void Swap(int i, int j, int[] array)
         {
-            int temp = array[j];
-            array[j] = array[i];
-            array[i] = temp;
+            (array[i], array[j]) = (array[j], array[i]);
         }
     }
 }
