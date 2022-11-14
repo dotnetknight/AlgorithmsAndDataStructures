@@ -19,7 +19,7 @@
                 while (j > 0 && array[j] < array[j - 1])
                 {
                     BaseSwap.SwapIntegers(j, j - 1, array);
-                    j -= 1;
+                    j--;
                 }
             }
 
