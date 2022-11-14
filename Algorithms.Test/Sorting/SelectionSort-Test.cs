@@ -1,6 +1,7 @@
-﻿using System.Collections;
+﻿using Algorithms.Sorting;
+using System.Collections;
 
-namespace Algorithms.Test
+namespace Algorithms.Test.Sorting
 {
     public class SelectionSortTestCaseData : IEnumerable
     {

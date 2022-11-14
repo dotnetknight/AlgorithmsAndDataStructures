@@ -1,6 +1,7 @@
+using Algorithms.Sorting;
 using System.Collections;
 
-namespace Algorithms.Test
+namespace Algorithms.Test.Sorting
 {
     public class BubbleSortTestCaseData : IEnumerable
     {
