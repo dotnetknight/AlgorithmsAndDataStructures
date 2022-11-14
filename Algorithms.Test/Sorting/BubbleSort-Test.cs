@@ -22,9 +22,8 @@ namespace Algorithms.Test.Sorting
         {
             var solution = new BubbleSort();
             var sortedArray = solution.Sort(array);
-            Array.Sort(array);
 
-            CollectionAssert.AreEquivalent(sortedArray, array);
+            Assert.That(sortedArray, Is.Ordered);
         }
 
         [Test]

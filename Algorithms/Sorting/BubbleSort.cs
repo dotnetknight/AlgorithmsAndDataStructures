@@ -22,7 +22,7 @@
                 {
                     if (array[i] > array[i + 1])
                     {
-                        Swap(i, i + 1, array);
+                        BaseSwap.SwapIntegers(i, i + 1, array);
                         isSorted = false;
                     }
                 }
@@ -30,11 +30,6 @@
             }
 
             return array;
-        }
-
-        private static void Swap(int i, int j, int[] array)
-        {
-            (array[i], array[j]) = (array[j], array[i]);
         }
     }
 }

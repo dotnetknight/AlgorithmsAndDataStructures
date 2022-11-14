@@ -25,16 +25,11 @@
                     }
                 }
 
-                Swap(startIdx, smallestIdx, array);
+                BaseSwap.SwapIntegers(startIdx, smallestIdx, array);
                 startIdx++;
             }
 
             return array;
-        }
-
-        public static void Swap(int i, int j, int[] array)
-        {
-            (array[i], array[j]) = (array[j], array[i]);
         }
     }
 }
