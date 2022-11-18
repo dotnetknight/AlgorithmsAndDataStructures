@@ -7,6 +7,7 @@ namespace LeetCode.Tests._0151_0200
     {
         public IEnumerator GetEnumerator()
         {
+            yield return new object[] { string.Empty, string.Empty };
             yield return new object[] { "The Dark Knight", "Knight Dark The" };
             yield return new object[] { "the sky is blue", "blue is sky the" };
             yield return new object[] { "  hello world!  ", "world! hello" };
