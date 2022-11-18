@@ -2,7 +2,7 @@
 {
     public class _0344_ReverseString
     {
-        // O(n) time | O(1) extra space
+        // O(n) time | O(1) space
         public void ReverseString(char[] s)
         {
             if (s == null || s.Length == 0)
