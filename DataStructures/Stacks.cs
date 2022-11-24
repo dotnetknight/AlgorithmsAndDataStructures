@@ -38,5 +38,46 @@
 
             return new string(s);
         }
+
+        // O(n) time | O(n) space
+        public bool BalancedBrackets(string s)
+        {
+            string openingBrackets = "([{";
+            string closingBrackets = ")]}";
+
+            List<char> stack = new();
+            Dictionary<char, char> matchingBrackets = new()
+            {
+                { ')', '(' },
+                { ']', '[' },
+                { '}', '{' }
+            };
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                char letter = s[i];
+                if (openingBrackets.IndexOf(letter) != -1)
+                {
+                    stack.Add(letter);
+                }
+                else if (closingBrackets.IndexOf(letter) != -1)
+                {
+                    if (stack.Count == 0)
+                    {
+                        return false;
+                    }
+                    if (stack[stack.Count - 1] == matchingBrackets[letter])
+                    {
+                        stack.RemoveAt(stack.Count - 1);
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
+
+            return stack.Count == 0;
+        }
     }
 }
