@@ -2,6 +2,7 @@
 {
     public class _005_LongestPalindromicSubstring
     {
+        // O(n^2) time | O(1) space
         public string LongestPalindrome(string s)
         {
             if (string.IsNullOrWhiteSpace(s) || s.Length == 1)
