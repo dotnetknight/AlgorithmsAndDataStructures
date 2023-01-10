@@ -10,7 +10,7 @@ namespace LeetCode.Tests._0001_0050
         [TestCase(-1, -1)]
         [TestCase(0, 0)]
         [TestCase(1534236469, 0)]
-        public void Reverse_HasString_ReversesInteger(int x, int expectedResult)
+        public void Reverse_HasValidInteger_ReversesInteger(int x, int expectedResult)
         {
             var solution = new _007_ReverseInteger();
             var result = solution.Reverse(x);
