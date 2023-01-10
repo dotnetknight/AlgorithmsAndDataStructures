@@ -2,6 +2,7 @@
 {
     public class _2114_MostWordsFound
     {
+        // O(n) time | O(1) space
         public int MostWordsFound(string[] sentences)
         {
             int max = 0;

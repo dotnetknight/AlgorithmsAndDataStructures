@@ -4,6 +4,7 @@ namespace LeetCode
 {
     public class _1474_DeleteNNodesAfterMNodesOfALinkedList
     {
+        // O(n) time | O(1) space
         public ListNode DeleteNodes(ListNode head, int m, int n)
         {
             var dummy = new ListNode(-1);

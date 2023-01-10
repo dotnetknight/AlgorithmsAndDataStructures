@@ -2,6 +2,7 @@
 {
     public class _0771_JewelsAndStones
     {
+        // O(n+m) time | O(n) space
         public int NumJewelsInStones(string jewels, string stones)
         {
             var hashMap = new Dictionary<char, int>();

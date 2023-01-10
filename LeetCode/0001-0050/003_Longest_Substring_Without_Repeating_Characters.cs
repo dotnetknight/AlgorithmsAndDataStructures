@@ -2,6 +2,7 @@
 {
     public class _003_Longest_Substring_Without_Repeating_Characters
     {
+        // O(n) time | O(n) space
         public int LengthOfLongestSubstring(string s)
         {
             if (s == "")

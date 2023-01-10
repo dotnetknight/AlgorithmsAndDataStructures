@@ -4,6 +4,7 @@
     //https://leetcode.com/submissions/detail/814663765/
     public class _1290_ConvertBinaryNumberInALinkedListToInteger
     {
+        // O(n) time | O(1) space
         public int GetDecimalValue(ListNode head)
         {
             uint result = 0;

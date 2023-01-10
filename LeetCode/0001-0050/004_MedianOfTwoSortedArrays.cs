@@ -3,6 +3,7 @@
     //https://leetcode.com/submissions/detail/811031876/
     public class _004_MedianOfTwoSortedArrays
     {
+        // O(nlog(n)) time | O(n) space
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
             var result = new List<int>(nums1);

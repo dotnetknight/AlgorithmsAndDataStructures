@@ -2,6 +2,7 @@
 {
     public class _030_SubstringWithConcatenationOfAllWords
     {
+        // O(n*m) time |  O(n+m) space.
         public IList<int> FindSubstring(string s, string[] words)
         {
             var result = new List<int>();

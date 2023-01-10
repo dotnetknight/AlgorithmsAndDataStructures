@@ -4,6 +4,7 @@
     {
         public ListNode ReverseList(ListNode head)
         {
+            // O(n) time | O(1) space
             var dummyHead = new ListNode(-1);
 
             var current = head;

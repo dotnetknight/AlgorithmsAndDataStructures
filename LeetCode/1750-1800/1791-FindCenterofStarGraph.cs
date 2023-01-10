@@ -2,6 +2,7 @@
 {
     public class _1791_FindCenterofStarGraph
     {
+        // O(n) time | O(n) space
         public int FindCenter(int[][] edges)
         {
             var oneDimentionalArrayLenght = edges.Length / 2;

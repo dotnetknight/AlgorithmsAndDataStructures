@@ -3,6 +3,7 @@
     //https://leetcode.com/submissions/detail/814671334/
     public class _001_TwoSum
     {
+        // O(n) time | O(n) space.
         public int[] TwoSum(int[] nums, int target)
         {
             var valuePairs = new Dictionary<int, int>();

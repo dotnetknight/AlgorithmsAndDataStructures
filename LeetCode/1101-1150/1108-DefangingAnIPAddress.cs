@@ -4,6 +4,7 @@ namespace LeetCode._1101_1150
 {
     public class _1108_DefangingAnIPAddress
     {
+        // O(n) time | O(n) space
         public string DefangIPaddr(string address)
         {
             StringBuilder stringBuilder = new StringBuilder();

@@ -2,23 +2,24 @@
 {
     public class _2011_FinalValueAfterOperations
     {
+        // O(n) time | O(1) space
         public int FinalValueAfterOperations(string[] operations)
         {
-            int X = 0;
+            int x = 0;
 
             foreach (string operation in operations)
             {
                 if (operation.Contains('+'))
                 {
-                    X++;
+                    x++;
                 }
                 else
                 {
-                    X--;
+                    x--;
                 }
             }
 
-            return X;
+            return x;
         }
     }
 }

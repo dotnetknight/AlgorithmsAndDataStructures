@@ -2,11 +2,14 @@
 {
     public class _1365_HowManyNumbersAreSmallerThanTheCurrentNumber
     {
+        // O(n) time | O(k)
         public int[] SmallerNumbersThanCurrent(int[] nums)
         {
             var rank = new int[101];
             foreach (var num in nums)
+            {
                 rank[num]++;
+            }
 
             var count = 0;
             for (int i = 0; i < 101; i++)
@@ -18,7 +21,9 @@
 
             var results = new int[nums.Length];
             for (int i = 0; i < nums.Length; i++)
+            {
                 results[i] = rank[nums[i]];
+            }
 
             return results;
         }

@@ -2,6 +2,7 @@
 {
     public class _1512_NumberOfGoodPairs
     {
+        // O(n^2) time | O(1) space
         public int NumIdenticalPairs(int[] nums)
         {
             int numberOfGoodPairs = 0;

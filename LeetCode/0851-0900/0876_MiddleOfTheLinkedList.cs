@@ -4,6 +4,7 @@ namespace LeetCode._0851_0900
 {
     public class _0876_MiddleOfTheLinkedList
     {
+        // O(n) time | O(1) space
         public ListNode MiddleNode(ListNode head)
         {
             var fast = head;

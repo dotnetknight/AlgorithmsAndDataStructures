@@ -2,6 +2,8 @@
 {
     public class _007_ReverseInteger
     {
+        // O(n) time | O(1) space
+
         public int Reverse(int x)
         {
             long reversed = 0;
