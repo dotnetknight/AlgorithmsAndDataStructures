@@ -15,6 +15,8 @@ namespace LeetCode.Tests._0001_0050
         [TestCase("123abc", 123)]
         [TestCase("  -2247483648abc", int.MinValue)]
         [TestCase("  2247483647abc", int.MaxValue)]
+        [TestCase("4193 with words", 4193)]
+        [TestCase("words and 987", 0)]
         public void MyAtoi_HasValidString_ReturnsConvertedStringToInteger(string s, int expectedResult)
         {
             var solution = new _008_StringToInteger_ATOI();
