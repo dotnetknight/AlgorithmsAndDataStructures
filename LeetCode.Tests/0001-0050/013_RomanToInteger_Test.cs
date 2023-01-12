@@ -19,6 +19,7 @@ namespace LeetCode.Tests._0001_0050
         [TestCase("MMCDXCIV", 2494)]
         [TestCase("M", 1000)]
         [TestCase("MMXLVIII", 2048)]
+        [TestCase("XVX", 15)]
         public void RomanToInteger_HasValidRomanNumeral_ReturnsInteger(string s, int expectedResult)
         {
             var solution = new _013_RomanToInteger();
