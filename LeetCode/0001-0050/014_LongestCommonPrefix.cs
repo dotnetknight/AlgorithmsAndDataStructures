@@ -8,10 +8,12 @@
             {
                 return string.Empty;
             }
+
             if (strs.Length == 1)
             {
                 return strs[0];
             }
+
             string prefix = strs[0];
             for (int i = 1; i < strs.Length; i++)
             {
@@ -24,6 +26,7 @@
                     }
                 }
             }
+
             return prefix;
         }
     }
